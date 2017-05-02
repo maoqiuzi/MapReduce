@@ -1,0 +1,5 @@
+package com.maoqiuzi.mapred.tasktracker;
+
+public enum SlaveStatus {
+	IDLE, MAPREADY, REDUCEREADY, MAPPING, REDUCING, MAPSUCCEEDED, MAPFAILED, REDUCESUCCEEDED, REDUCEFAILED, ALIVE, DEAD
+}
